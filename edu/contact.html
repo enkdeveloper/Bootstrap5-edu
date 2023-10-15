@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Developer Yazılım A.Ş</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            padding-top: 60px;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Yazılım A.Ş</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Hizmetlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="team.html" class="nav-link">Ekibimiz</a>
+                    </li><li class="nav-item">
+                        <a href="contact.html" class="nav-link">İletişim</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-danger btn-sm dropdown-toggle" data-bs-toggle="dropdown">Dil</button>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">En</a>
+                        <a href="" class="dropdown-item">De</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="container my-3">
+            <h1 class="display-1 text-center">İletişim</h1>
+        </div>
+        <div class="row mx-5 my-3">
+            <div class="col-lg-6">
+                <h2>Adres:</h2>
+                <address>
+                    <strong>New Developer Yazılım A.Ş</strong><br>
+                    Sarıyer <br>
+                    İstanbul <br>
+                    <i class="fas fa-fw fa-phone"></i><a class="text-decoration-none text-dark" href="tel:+5555555555">(555) 555-55-55</a> <br>
+                    <i class="fas fa-fw fa-envelope"></i><a class="text-decoration-none text-dark" href="mailto:info@newdeveloper.com">info@newdeveloper.com</a>
+                </address>
+            </div>
+            <div class="col-lg-6">
+                <h2>Çalışma Saatleri: </h2>
+                <div class="d-flex justify-content-between">
+                    <p class="mb-0">Pazartesi-Cuma:</p>
+                    <p class="mb-0">9 AM - 6 PM</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="mb-0">Cumartesi:</p>
+                    <p class="mb-0">10 AM - 1 PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-5 my-3">
+            <div class="col-lg-6">
+                <h2>Bize Yazın</h2>
+                <form class="my-3">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Ad</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    <input type="text" class="form-control" placeholder="Adınızı giriniz" required>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input type="text" class="form-control" placeholder="Emailinizi giriniz" required>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Telefon Numarası</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    <input type="tel" class="form-control" placeholder="5555555555" required>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Konu:</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-home"></i></span>
+                                    <select class="form-select" required>
+                                        <option value="">Seçiniz</option>
+                                        <option value="webtasarım">Web Tasarım</option>
+                                        <option value="uxui">UX/UI</option>
+                                        <option value="egitimler">Eğitimler</option>
+                                    </select>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mesajınız</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                            <textarea class="form-control" rows="5" placeholder="Mesajınızı girin.."></textarea>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Gönder</button>
+                    <button class="btn btn-secondary">İptal</button>
+                </form>
+            </div>
+
+            <div class="col-lg-6">
+                <h2>Ofis:</h2>
+                <div class="ratio-4x3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231943.8902595624!2d28.83353484461287!3d41.16026405358811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409fe02232a852d7%3A0x3a86cad07b1a4ec4!2zU2FyxLF5ZXIvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1688558081466!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light small">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h6>Site Haritası</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-dark" href="index.html">Anasayfa</a></li>
+                        <li><a class="text-decoration-none text-dark" href="services.html">Hizmetlerimiz</a></li>
+                        <li><a class="text-decoration-none text-dark" href="about.html">Hakkımızda</a></li>
+                        <li><a class="text-decoration-none text-dark" href="team.html">Ekibimiz</a></li>
+                        <li><a class="text-decoration-none text-dark" href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6>Kvkk</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-dark" href="#">Kişisel Verilerin Kullanımı</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#">Aydınlatma Metni</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6>Sosyal Medya</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-dark" href="#"><i class="fab fa-fw fa-facebook"></i>Facebook</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#"><i class="fab fa-fw fa-instagram"></i>Instagram</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#"><i class="fab fa-fw fa-twitter"></i>Twitter</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#"><i class="fab fa-fw fa-youtube"></i>Youtube</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#"><i class="fab fa-fw fa-linkedin"></i>LinkedIn</a></li>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6>İletişim</h6>
+                    <address>
+                        <strong>New Developer Yazılım A.Ş</strong><br>
+                        Sarıyer <br>
+                        İstanbul <br>
+                        <i class="fas fa-fw fa-phone"></i><a class="text-decoration-none text-dark" href="tel:+5555555555">(555) 555-55-55</a> <br>
+                        <i class="fas fa-fw fa-envelope"></i><a class="text-decoration-none text-dark" href="mailto:info@newdeveloper.com">info@newdeveloper.com</a>
+                    </address>
+                </div>
+            </div>
+            <ul class="list-inline text-center mb-0 mt-2">
+                <li class="list-inline-item"> &copy 2023 New Developer Yazılım A.Ş </li>
+                <li class="list-inline-item"> Tüm Hakları Saklıdır.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
